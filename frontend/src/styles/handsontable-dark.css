@@ -1,0 +1,135 @@
+.htDarkTheme {
+    background: #0f1117;
+    color: #e5e7eb;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.htDarkTheme .handsontable {
+    background: #0f1117;
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.htDarkTheme .handsontable .wtHolder {
+    background: #0f1117;
+}
+
+.htDarkTheme .handsontable th {
+    background-color: #1a1f2e;
+    color: #60a5fa;
+    border-color: #2d3748;
+    font-weight: 600;
+    padding: 8px 4px;
+    white-space: normal;
+}
+
+.htDarkTheme .handsontable td {
+    color: #e5e7eb;
+    border-color: #2d3748;
+    padding: 4px 8px;
+    white-space: normal;
+    background: #1a1f2e;
+}
+
+.htDarkTheme .handsontable .wtBorder {
+    border-color: #60a5fa !important;
+}
+
+.htDarkTheme .handsontable tr:hover td {
+    background: #2d3748;
+}
+
+.htDarkTheme .handsontable td.area {
+    background: rgba(96, 165, 250, 0.1);
+    color: #e5e7eb;
+}
+
+.htDarkTheme .handsontable .wtBorder.area {
+    background: rgba(96, 165, 250, 0.2);
+    border: 2px solid #60a5fa !important;
+}
+
+.htDarkTheme .handsontable .wtBorder.current {
+    border: 2px solid #60a5fa !important;
+    background: transparent !important;
+}
+
+.htDarkTheme .handsontable .columnSorting:hover {
+    color: #60a5fa;
+}
+
+.htDarkTheme .handsontable .columnSorting.ascending::after {
+    border-top: none;
+    border-bottom: 4px solid #60a5fa;
+}
+
+.htDarkTheme .handsontable .columnSorting.descending::after {
+    border-bottom: none;
+    border-top: 4px solid #60a5fa;
+}
+
+.htDarkTheme .handsontable .dropdown-menu {
+    background: #1a1f2e;
+    color: #e5e7eb;
+    border: 1px solid #2d3748;
+}
+
+.htDarkTheme .handsontable .dropdown-menu li {
+    padding: 4px 8px;
+}
+
+.htDarkTheme .handsontable .dropdown-menu li:hover {
+    background: #2d3748;
+}
+
+.htDarkTheme .handsontable .htCore td.current {
+    background: rgba(96, 165, 250, 0.15);
+    color: #e5e7eb;
+}
+
+.htDarkTheme .handsontable .htCore td.area {
+    background: rgba(96, 165, 250, 0.1);
+    color: #e5e7eb;
+}
+
+/* Добавляем стили для контекстного меню */
+.htDarkTheme .handsontable .htContextMenu {
+    background: #1a1f2e;
+    border: 1px solid #2d3748;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.htDarkTheme .handsontable .htContextMenu table tbody tr td {
+    background: #1a1f2e;
+    border-bottom: 1px solid #2d3748;
+    color: #e5e7eb;
+    padding: 8px 12px;
+}
+
+.htDarkTheme .handsontable .htContextMenu table tbody tr td:hover {
+    background: #2d3748;
+}
+
+.htDarkTheme .handsontable .htContextMenu table tbody tr td.current {
+    background: #2d3748;
+    color: #60a5fa;
+}
+
+.htDarkTheme .handsontable .htContextMenu table tbody tr td.htDisabled {
+    color: #6b7280;
+}
+
+.htDarkTheme .handsontable .htContextMenu table tbody tr td .htItemWrapper {
+    color: inherit;
+}
+
+/* Исправляем проблему с выделением */
+.htDarkTheme .handsontable tbody tr td.current.highlight {
+    background: rgba(96, 165, 250, 0.15);
+    color: #e5e7eb;
+}
+
+.htDarkTheme .handsontable tbody tr td.area.highlight {
+    background: rgba(96, 165, 250, 0.1);
+    color: #e5e7eb;
+} 
